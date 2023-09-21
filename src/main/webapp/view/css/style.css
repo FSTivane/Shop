@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#link{
+	float: right;
+	margin-top: -30px;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+#cabecalho{
+	background-color: rgba(0, 0, 0, 0.774);
+	color: white;
+	height: 40px;
+	margin-bottom: 5px;
+}
+
+#start{
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	height: 100vh;
+	font-size: 30px;
+}
+
+ /* Estilos para o slideshow */
+ .slideshow-container {
+	max-width: 800px;
+	position: relative;
+	margin: auto;
+}
+
+.mySlides {
+	display: none;
+}
+
+/* Estilos para os botões de navegação */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* Estilos para os pontos indicadores */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+#for{
+	border-radius: 100%;
+}
+
+.form
+{
+	float: right;
+	margin-top: -400px;
+	margin-right: 50px;
+	background-color: rgba(0, 0, 0, 0.774);
+	width: 500px;
+	height: 30px;
+	font-size: 17px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	color:white;
+}
+
+#formulario{
+	float: right;
+	margin-top: -360px;
+	margin-right: 50px;
+	background-color: rgba(0, 0, 0, 0.774);
+	width: 300px;
+	font-size: 17px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	color:white;
+}
+
+#tela1{
+	margin-left: 180px;
+	background-color: white;
+	width: 990px;
+	height: 550px;
+}
+
+.star {
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    color: orange;
+}
+
+.star ul{
+	margin-left: 20px;
+}
+
+.star.active {
+    color: gold;
+}
+
+.rating{
+	margin-left: 110px;
+}
+
+#tela2{
+	margin-left: 180px;
+	background-color: white;
+	width: 990px;
+	height: 550px;
+}
+
+#tela2 img{
+	width: 300px;
+	height: 140px;
+	margin-left: 20px;
+
+}
+
+#tela3{
+	margin-left: 180px;
+	background-color: white;
+	width: 990px;
+	height: 550px;
+}
+
+#tela3 img{
+	width: 300px;
+	height: 140px;
+	margin-left: 20px;
+
+}
+
+#tela1 img{
+	width: 300px;
+	height: 140px;
+	margin-left: 20px;
+}
+
+#center{
+	text-align: center;
+	color: black;
+	font-size: 30px;
+}
+
+#centralizador{
+	float: right;
+	margin-top: -503px;
+	margin-right: 360px;
+}
+
+#central{
+	float: right;
+	margin-top: -503px;
+	margin-right:50px;
+}
+
+#iform img{
+	margin-left: 550px;
+	margin-top: 30px;
+}
+
